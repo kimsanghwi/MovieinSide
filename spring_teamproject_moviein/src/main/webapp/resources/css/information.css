@@ -1,0 +1,359 @@
+@charset "UTF-8";
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#contents{
+  width : 100%;
+}
+/* Header */
+/* Header */
+
+/* infor */
+
+.myinfor {
+   width: 100%;
+   margin: 50px 0px;
+}
+.ticketing {
+    width: 45%;
+    height: 300px;
+    border-radius: 15px;
+    float: right;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 5px;
+}
+.infor {
+    width: 45%;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 5px;
+}
+.password {
+   width: 45%;
+    height: 300px;
+    float: right;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 5px;
+}
+.secession {
+   width: 45%;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 5px;
+}
+.ticketing-title {
+   width: 20%;
+   height: 100%;
+   float: left;
+    overflow: hidden;
+    text-align: right;
+}
+.ticketing-title div {
+   margin: 25px 0px;
+}
+.ticketing-ctn {
+   width: 80%;
+   height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.ticketing-ctn input{
+   border: none;
+   text-align: center;
+}
+.infor-ctn {
+   width: 80%;
+   height: 100%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.infor-ctn input{
+   border: none;
+   text-align: center;
+}
+.infor-title {
+   width: 20%;
+   height: 100%;
+   float: left;
+   text-align: right;
+}
+.infor-title div {
+   margin: 35px 0px;
+
+}
+.password-ctn {
+   width: 70%;
+   height: 100%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.password-ctn input{
+   border: none;
+   text-align: center;
+}
+.password-title {
+   width: 30%;
+   height: 100%;
+   float: left;
+   overflow: hidden;
+   text-align: right;
+}
+.password-title div {
+   margin: 35px 0px;
+}
+.secession-ctn {
+   width: 80%;
+   height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.secession-ctn input{
+   border: none;
+   text-align: center;
+}
+.secession-title {
+   width: 20%;
+   height: 100%;
+    float: left;
+    overflow: hidden;
+    text-align: right;
+}
+.secession-title div{
+   margin: 26px 0px;
+}
+.ticketing-btn {
+   float: right;
+}
+.ticketing-btn input{
+   background-color: #000;
+   color: #fff;
+   border: none;
+   padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.infor-btn {
+   float: right;
+}
+.infor-btn input {
+   background-color: #000;
+   color: #fff;
+   border: none;
+   padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.repassword-btn {
+   float: right;
+}
+.repassword-btn input {
+   background-color: #000;
+   color: #fff;
+   border: none;
+   padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.password-ctn .password-ept {
+   margin: 30px 0px;
+}
+.secession-btn {
+   float: right;
+}
+.secession-btn input {
+   background-color: #000;
+   color: #fff;
+   border: none;
+   padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.secession-name {
+   margin-top: 15px;
+}
+#contents .container .myinfor .ticketing-ctn div {
+   margin: 25px 0px;
+}
+#contents .container .myinfor .infor-ctn div {
+   margin: 35px 0px;
+
+}
+#contents .container .myinfor .secession-ctn div {
+   margin: 26px 0px;
+}
+/* infor */
+
+
+/* contents */
+.userform {
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container .userform .information input{
+
+  border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1px;
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  background-color: #F2F2F2;}
+
+  input:focus {
+    outline: none;
+  }
+
+
+.name {
+
+padding-bottom: 30px;
+
+}
+
+.container .information {
+ margin-bottom: 30px;
+}
+
+
+.container .information .infor-btn{
+
+margin-right: 3px;
+background-color: #000000;
+border: none;
+color:#FFFFFF;
+font-size: 11px;
+padding: 8px;
+margin-bottom: 30px;
+}
+
+.container .information textarea{
+
+resize:none;
+border: solid 1px;
+
+}
+textarea:focus {
+  outline: none;
+}
+
+/*contents 끝*/
+
+/*회원 탈퇴(delete) 부분*/
+
+.deleteform {
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+    margin-top: 165px;
+    margin-bottom: 165px;
+}
+
+.container .deleteform .delete-btn{
+
+margin-right: 5px;
+background-color: #000000;
+border: none;
+border-radius: 5px;
+color:#FFFFFF;
+font-size: 11px;
+padding: 8px;
+margin-bottom: 50px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.container .deleteform .delete-btn:hover{
+
+  font-weight: bold;
+  transform: scale(0.9);
+
+}
+
+.container .deleteform input{
+
+  border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1px;
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  margin-bottom: 50px;
+  background-color: #F2F2F2;
+
+}
+
+
+
+/*회원 탈퇴(delete) 부분 끝*/
+
+
+
+
+
+/*비밀번호 변경(password) 부분*/
+
+.passwordform {
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.container .passwordform .password-btn{
+
+margin-top: 10px;
+margin-right: 5px;
+background-color: #000000;
+border: none;
+border-radius: 5px;
+color:#FFFFFF;
+font-size: 11px;
+padding: 8px;
+margin-bottom: 50px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+.container .passwordform .password-btn:hover{
+
+  font-weight: bold;
+  transform: scale(0.9);
+}
+
+.container .passwordform input{
+
+  border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1px;
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+  background-color: #F2F2F2;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+
+/*비밀번호 변경(password) 부분 끝*/

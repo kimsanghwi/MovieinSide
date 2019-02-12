@@ -1,0 +1,228 @@
+#wrap {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	/* background-color: #999; */
+}
+
+#contents {
+	width: 100%;
+}
+
+#footer {
+	width: 100%;
+	height: 250px;
+	background-color: #1C1C1C;
+	color: #ffffff;
+}
+/*    Hi    */
+.container {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.people-container {
+	width: auto;
+	height: 700px;
+	overflow: hidden;
+	border: 1px solid #bcbcbc;
+}
+
+.people-header {
+	width: auto;
+	height: 100px;
+	overflow: hidden;
+	border: 1px solid #bcbcbc;
+}
+
+.people-left {
+	margin-top: auto;
+	width: 200px;
+	float: left;
+	height: 1300px;
+	overflow: hidden;
+}
+
+.people-right {
+	width: 200px;
+	height: 1300px;
+	float: right;
+	display: block;
+}
+
+.people-center {
+	overflow: hidden;
+	width: 1099px;
+	float: left;
+}
+
+.lee-co {
+	width: 1101px;
+	margin-top: 50px;
+}
+
+.lee-co h4 {
+	margin-left: 20px;
+	margin-bottom:20px;
+}
+
+.view-title {
+	width: 1101px;
+	height: 80px;
+	float: left;
+	border-top: 1px dotted #dadada;
+	border-bottom: 3px solid #333333;
+	background-color: #f2f2f2;
+}
+
+.view-title h3 {
+	color: black;
+	margin-left: 20px;
+	margin-top:30px;
+}
+
+.view-title h4 {
+	font-size: 12px;
+	text-align: right;
+	margin-right: 60px;
+}
+
+.view-title a {
+	text-decoration: none;
+}
+
+.view-content {
+	width: 900px;
+	height: 1000px;
+
+}
+
+.view-content h3 {
+	margin-left: 20px;
+}
+
+.view-content img {
+	margin-left: 70px;
+}
+
+.view-content-p p {
+	font-weight: bold;
+	
+}
+
+.view-content-p {
+	padding: 20px;
+	margin-top:100px;
+}
+
+.view-content-p2 p {
+	font-weight: bold;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.view-content-c {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*  --------------------------------    */
+.introduction-release {
+	margin-bottom: 10px;
+}
+.introduction-hit {
+	margin-bottom: 10px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	padding: 10px 0px;
+}
+.introduction-info {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+.modify-btn {
+	border: 2px solid #000;
+	width: 5%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    float: right;
+    margin-right: 4px;
+}
+.modify-btn a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+.modify-btn:hover {
+	transform: scale(1.1);
+}
+.modify-btn a:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	transition: all .7s ease;
+}
+.reply-box{
+  width: 100%;
+  height: 200px;
+  color: #000;
+}
+.reply-box .reply-head {
+  margin-top: 100px;
+  font-family: 'Jua', sans-serif;
+  color: #000;
+}
+.reply-box .reply-rating{
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+.reply-box .reply-write{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.reply-box .reply-write .reply-text{
+  float: left;
+  width: 80%;
+}
+.reply-box .reply-write .reply-btn{
+  float: right;
+  width: 20%;
+  height: 71%;
+}
+.contents-btn:hover{
+  color: #FB0303;
+  transition: all .8s ease;
+}
+
+.reply-box input{
+  width: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  height: 77%;
+    font-size: 28px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    text-decoration: none;
+}
+.reply-box .reply-text textarea{
+  width: 100%;
+  height: 20%;
+  padding-top: 10px;
+  border: none;
+}
+
+.reply-view {
+  color: #000;
+}
+/* input line 없애주는거 */
+*:focus {
+    outline: none;
+}

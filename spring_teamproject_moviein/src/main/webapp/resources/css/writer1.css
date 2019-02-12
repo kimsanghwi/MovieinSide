@@ -1,0 +1,457 @@
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#header{
+  width : 100%;
+  height: 140px;
+  position: relative;
+  /* background-color: #999; */
+}
+#contents{
+  width : 100%;
+}
+#footer{
+  width : 100%;
+  height: 250px;
+  background-color: #1C1C1C;
+  color: #ffffff;
+}
+
+/* Container */
+.container{
+  width : 960px;
+  margin : 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+.footer-container {
+  width: 100%;
+  height: 100%;
+}
+/* Container */
+
+/* 공지사항 */
+#content-list {
+    background: #fff;
+    float: right;
+    margin-top: 3px;
+}
+
+
+#rank-list a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#rank-list a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+#rank-list {
+    overflow: hidden;
+    width: 250px;
+    height: 20px;
+    padding-left: 15px;
+    margin: 0;
+    border: 2px solid #000;
+}
+
+
+#rank-list dt {
+    display: none;
+}
+
+
+#rank-list dd {
+    position: relative;
+    margin: 0;
+}
+
+
+#rank-list ol {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#rank-list li {
+    height: 20px;
+    line-height: 25px;
+    padding-left: 25px;
+}
+/* 공지사항 */
+
+/* 검색창 */
+.searchbox {
+  width: 50%;
+}
+.search-contents {
+  width: 200px;
+  height: 35px;
+  margin: 20px 0px;
+  border : 2px solid black;
+  border-radius: 15px;
+}
+.search-contents input {
+  border: 0px;
+  background: none;
+  float : left;
+  width : 85%;
+  padding-left : 5px;
+  margin-top : 9px;
+}
+.search-contents i {
+  float : left;
+  width : 10%;
+  color : gray;
+  margin-top : 7px;
+  margin-left : 10px;
+}
+/* 검색창 */
+
+
+/*header*/
+.topmenu {
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.container .topmenu .menu > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 5%;
+}
+
+.container .topmenu .login > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 8%;
+}
+.container .topmenu .sign-up > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 3%;
+}
+.container .topmenu .logout > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 8%;
+}
+.container .topmenu .information > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 3%;
+}
+.menu {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+}
+.login {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+}
+.sign-up {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+}
+.logout {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+}
+.information {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+}
+.container .topmenu .menu > a:hover {
+  color: #FB0303;
+  transition: all .4s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container .topmenu .login > a:hover {
+  color: #FB0303;
+  transition: all .7s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container .topmenu .sign-up > a:hover {
+  color: #FB0303;
+  transition: all .7s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container .topmenu .logout > a:hover {
+  color: #FB0303;
+  transition: all .7s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container .topmenu .information > a:hover {
+  color: #FB0303;
+  transition: all .7s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+/*header*/
+
+
+/*contents*/
+.writrerbox {
+  width: 100%;
+}
+.contents .container .writrerbox table th {
+  border-bottom: 1px solid #bbb;
+  text-align: left;
+  padding: 15px 0px;
+}
+.contents .container .writrerbox table td {
+
+  margin: 10px 0px;
+}
+.contents .container .writrerbox table {
+  margin-top: 50px;
+  width: 100%;
+}
+.contents .container .writrerbox table input {
+  margin-top: 15px;
+  border: none;
+}
+.contents .container .writrerbox table textarea {
+  resize: none;
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+}
+.writer1-btn {
+	margin-top: 60px;
+	margin-bottom: 200px;
+	text-align: right;
+	
+}
+.writrerbox .writer1-btn input {
+	border-radius: 15px;
+	width: 60px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #fff;
+	border: 2px solid #000;
+}
+.writrerbox .writer1-btn input:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	 transition: all .7s ease;
+}
+.writer1-btn label {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+.writer1-btn label:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	 transition: all .7s ease;
+}
+/*contents*/
+
+
+/*footer*/
+.footer-teamname {
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+.footer-introduce {
+  float: left;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.introducebox {
+  margin-top: 5%;
+}
+.introduce-img {
+  border-radius: 50px;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+}
+.introduce-name {
+  width: 90px;
+  height: 25px;
+  text-align: center;
+}
+/*footer*/
+
+/* 로그인 */
+.login1{
+
+text-align: center;
+font-family:sans-serif;
+
+}
+.join-box2 {
+  margin-top: 10px;
+}
+.join-signup {
+  margin-bottom: 20px;
+  font-family: 'Jua', sans-serif;
+}
+.login-box {
+  margin-top: 17%;
+  padding-top: 50px;
+}
+.login-h {
+  margin-bottom: 35px;
+  font-family: 'Jua', sans-serif;
+}
+.login-container{
+
+  width: 350px;
+  height: 350px;
+  vertical-align: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+  }
+
+.login1 .login-container .login-idbox input{
+
+  border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1px;
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+
+}
+
+.login1 .login-container .login-button .btn1{
+
+background-color: #000000;
+border: none;
+border-radius: 5px;
+color: #FFFFFF;
+padding:8px 8px;
+font-size: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.login1 .login-container .login-button .btn1:hover{
+  font-weight: bold;
+  transform: scale(0.9);
+}
+/* 로그인 */
+/* 회원가입 */
+.idcheck {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+.idcheck:hover {
+  font-weight: bold;
+  transform: scale(0.9);
+}
+.join .join-container .join-box .join-box2 input{
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+.join{
+  text-align: center;
+  font-family:sans-serif;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 500px;
+  height: 520px;
+  margin-top: 3%;
+  border-radius: 30px;
+}
+.join-container {
+  margin-top: 5%;
+}
+.join .join-container .join-box .join-box2 textarea{
+  background-attachment: local;
+  width: 220px;
+  border: 1px solid #000000;
+  resize: none;
+}
+.join .join-container .join-box .join-box2 .btn2{
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding:8px 8px;
+  font-size: 10px;
+  margin-top:2px;
+  margin-right: 8px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.join .join-container .join-box .join-box2 .btn2:hover{
+  font-weight: bold;
+  transform: scale(0.9);
+}
+.join-box2 label {
+  position: relative;
+  width: 40px;
+  padding: 2px 10px;
+  border: 1px solid #999;
+  background: #fff;
+}
+.join-box2 input[type="radio"] {
+  padding: absolute;
+}
+.join-box2 input:checked+label {
+  position: relative;
+  color: #000;
+  background: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+#man {
+  margin-right: -20px;
+}
+#woman {
+  margin-right: -20px;
+}
+*:focus {
+    outline: none;
+}

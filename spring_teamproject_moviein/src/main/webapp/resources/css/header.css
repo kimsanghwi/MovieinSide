@@ -1,0 +1,382 @@
+@charset "UTF-8";
+#header-fake {
+  width : 100%;
+  height: 150px;
+}
+#header{
+  width : 100%;
+  height: 150px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transition: top 0.2s ease-in-out;
+  z-index: 2;
+}
+.nav-up {
+   top: -150px;
+}
+.top-header {
+  width: 100%;
+  height: 40%;
+  background-color: #000;
+}
+/* container */
+.header-container{
+  width : 100%;
+  height: 100%;
+  margin : 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+.top-container {
+  width: 960px;
+  height: 30%;
+  margin: 0 auto;
+}
+
+/* 로그인 */
+#login-logout {
+  width: 50%;
+  padding: 20px 0px;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-login-box {
+  font-size: 13px;
+  font-family: 'Varela Round', sans-serif;
+}
+.logout {
+  font-size: 13px;
+  font-family: 'Varela Round', sans-serif;
+}
+#login-logout .header-login-box > ul li  a {
+  text-decoration: none;
+  color: #fff;
+}
+#login-logout .logout > ul li  a {
+  text-decoration: none;
+  color: #fff;
+}
+#login-logout .header-login-box > ul li  a:hover {
+  color: #bbb;
+}
+#login-logout .logout > ul li  a:hover{
+  color: #bbb;
+}
+#login-logout .header-login-box > ul li {
+  float: left;
+  margin-right: 20px;
+  text-decoration: none;
+}
+#login-logout .logout > ul li {
+  float: left;
+  margin-right: 20px;
+}
+/* 로그인 */
+/* 검색창 */
+.searchbox {
+  width: 50%;
+  padding: 10px 0px;
+}
+.search-contents {
+  width: 200px;
+  height: 35px;
+  border : 2px solid #fff;
+  border-radius: 15px;
+}
+.search-contents input {
+  border: 0px;
+  background: none;
+  float : left;
+  width : 85%;
+  padding-left : 5px;
+  margin-top : 9px;
+}
+.search-contents i {
+  float : left;
+  width : 10%;
+  color : #fff;
+  margin-top : 7px;
+  margin-left : 10px;
+}
+/* Header */
+.topmenu {
+  width: 100%;
+  height: 60%;
+  background-color: rgba(255,255,255, 0.6);
+}
+.header-container .topmenu .header-img {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.header-container .topmenu .header-img > a img {
+  height: 100%;
+  width: 70%;
+  margin-left: 45px;
+}
+.menubox {
+  width: 80%;
+  height: 100%;
+  float: right;
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: 'Jua', sans-serif;
+}
+.topmenu .menubox > ul {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.topmenu .menubox > ul li {
+  float: left;
+  margin-right: 70px;
+}
+.topmenu .menubox > ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.topmenu .menubox > ul li a:hover {
+  color: red;
+  transition: all .7s ease;
+  letter-spacing: 4px;
+}
+/* Header */
+
+/* 로그인 */
+.login1{
+   text-align: center;
+   font-family:sans-serif;
+}
+.login-container{
+    width: 60%;
+    height: 500px;
+    vertical-align: center;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 auto;
+  }
+.login-box {
+   height: 90%;
+}
+.login-h {
+    padding-top: 110px;
+    padding-bottom: 40px;
+    font-family: 'Jua', sans-serif;
+}
+.login-idbox {
+   margin-bottom: 15px;
+}
+.login-idbox > i {
+   font-size: 20px;
+}
+.login-idbox > input {
+    height: 20px;
+    /* border-radius: 20px; */
+    /* border: 2px solid #000; */
+    padding: 1px;
+}
+.login-pwbox {
+   margin-bottom: 35px;
+}
+.login-pwbox > i {
+   font-size: 20px;
+}
+.login-pwbox > input {
+    height: 20px;
+    /* border-radius: 20px; */
+    /* border: 2px solid #000; */
+    padding: 1px;
+}
+.login-button-box {
+   height: 10%;
+}
+.login-button {
+   width: 50%;
+   float: left;
+}
+.login1 .login-container .login-button-box .login-button > input {
+   width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.login1 .login-container .login-button-box .login-button > input:hover {
+   background-color: #000;
+   color: #fff;
+   transition: all .5s ease;
+}
+.login-img {
+   float: right;
+    width: 40%;
+    height: 500px;
+    position: relative;
+}
+.login-img .login-img-box {
+   width: 100%;
+    height: 100%;
+}
+.login-img .login-img-box img{
+   width: 100%;
+    height: 100%;
+}
+.login-img .login-img-contents {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Niconne', cursive;
+}
+.login-img .login-cover {
+   width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0, 0.6);
+}
+/* 로그인 */
+/* 회원가입 */
+.join{
+  text-align: center;
+  font-family:sans-serif;
+}
+.join-box {
+  height: 90%;
+}
+.join-button-box {
+   height: 10%
+}
+.join-box .check-btn input {
+    width: 314px;
+    margin-left: 24px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 3px;
+    font-weight: bold;
+}
+.join-box .check-btn input:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.join-box .post-btn input {
+   width: 316px;
+    margin-left: 22px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 3px;
+    font-weight: bold;
+}
+.join-box .post-btn input:hover {
+   background-color: #000;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.birth-box {
+   margin-top: 5px;
+    margin-bottom: 5px;
+}
+.join-box .birth-box input {
+   width: 312px;
+}
+.join-signup {
+  margin-bottom: 20px;
+  font-family: 'Jua', sans-serif;
+}
+.join-container {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 60%;
+    height: 630px;
+    float: left;
+}
+.join-box2 {
+   padding: 7px 0px;
+}
+.join .join-container .join-box .join-box2 input[type="date"] {
+  width: 185px;
+}
+.join-box2 input[type="radio"] {
+  padding: absolute;
+}
+.join-box2 label {
+  position: relative;
+  width: 40px;
+  padding: 2px 10px;
+  border: 1px solid #999;
+  background: #fff;
+}
+.join-box2 input:checked+label {
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.join-button {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.join-button input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.join-button input:hover{
+   background-color: #000;
+   color: #fff;
+   transition: all .5s ease;
+}
+.join-img {
+    float: right;
+    width: 40%;
+    height: 630px;
+    position: relative;
+}
+.join-img .join-img-box {
+   width: 100%;
+    height: 100%;
+}
+.join-img .join-img-box img{
+   width: 100%;
+    height: 100%;
+}
+.join-img .join-img-contents {
+    position: absolute;
+    top: 140px;
+    right: 75px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Niconne', cursive;
+}
+.join-img .join-cover {
+   width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0, 0.6);
+}
+
+
+#man {
+  margin-right: -20px;
+}
+#woman {
+  margin-right: -20px;
+}
+*:focus {
+    outline: none;
+}

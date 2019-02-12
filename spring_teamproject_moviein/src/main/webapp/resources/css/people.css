@@ -1,0 +1,188 @@
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#header{
+  width : 100%;
+  height: 100px;
+  /* background-color: #999; */
+}
+#contents{
+  width : 100%;
+}
+
+#footer{
+  width : 100%;
+  height: 250px;
+  background-color: #1C1C1C;
+  color: #ffffff;
+}
+/*    Hi    */
+
+.container{
+  width : 960px;
+  margin : 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.people-container{
+    width: auto;
+    height: 700px;
+    overflow: hidden;
+    border: 1px solid #bcbcbc;
+      }
+.people-header {
+  width:auto;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid #bcbcbc;
+}
+.people-left {
+  margin-top: auto;
+  width: 200px;
+  float: left;
+  height: 1300px;
+  overflow: hidden;
+
+}
+.people-right{
+  width: 200px;
+  height: 1300px;
+  float: right;
+  display: block;
+
+}
+.people-center{
+  overflow: hidden;
+  width: 1099px;
+  float: left;
+  height: 1300px;
+}
+/*   content  */
+.people-content{
+  width: 1200px;
+  text-align: center;
+  padding: 20px;
+
+}
+.people-content h4{
+  text-align: left;
+}
+.datetime {
+    font-family: Verdana;
+    font-size: 9px;
+}
+.people-content ul li{
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+}
+.people-content img{
+  margin-left: 25px;
+  margin-top: 20px;
+}
+/*-------------------*/
+.director ul li{
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.director {
+  width: 1101px;
+  height: 800px;
+  float: left;
+}
+.director ul {
+  margin-top: 40px;
+}
+.director ul li img {
+	width:202px;
+	height:173px;
+	margin-bottom:20px;
+}
+
+/*-------------------*/
+.test{
+  width: 1101px;
+  height: 800px;
+  float: left;
+
+}
+.test2{
+  margin: 20px;
+}
+.test2 img{
+  margin-left: 20px;
+}
+.test3 {
+  margin-left: 20px;
+}
+.lee{
+  width: 1101px;
+  height: auto;
+  float: left;
+}
+.lee ul li{
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.lee ul{
+  margin-top: 40px;
+}
+.lee-h h4{
+  margin-left: 20px;
+}
+.lee-co{
+  width: 1101px;
+  border-bottom: 2px solid black;
+  margin-top:50px;
+  
+}
+.lee-co h4{
+  margin-left: 20px;
+  margin-bottom:20px;
+}
+.lee-co i {
+  float: right;
+  font-size: 20px;
+}
+.lee ul li img {
+	width:202px;
+	height:173px;
+	margin-bottom:20px;
+}
+
+.paging{
+  margin-left: 436px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.paging ul li a{
+  text-decoration: none;
+  float: left;
+  padding:4px;
+  margin-right:3px;
+  width:15px;
+  color:#000;
+  font:bold 12px tahoma;
+  border:1px solid #eee;
+  text-decoration:none;
+  border-radius: 15px;
+}
+.paging ul li a:hover {
+  color:#fff;
+  border:1px solid #f40;
+  background-color:#f40;
+}
+.pagin ul li a:focus {
+  color:#fff;
+  border:1px solid #f40;
+  background-color:#f40;
+}
+
+/* 스크립트 테스트*/

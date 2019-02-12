@@ -1,0 +1,75 @@
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#contents{
+  width : 100%;
+}
+.modifyform {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.modify-box {
+	width: 100%;
+	height: 90%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modify-box table{
+	width: 100%;
+    border: 1px solid #bbb;
+   	border-radius: 30px;
+    box-shadow: 0px 0px 20px 5px;
+}
+.modifyform .modify-box table tr {
+	
+}
+.modifyform .modify-box table th {
+	padding: 20px 0px;
+	border-top: 1px solid #bbb;
+}
+.modifyform .modify-box table td {
+	padding: 30px 0px;
+	margin-bottom: 30px;
+}
+.modifyform .modify-box table td > input {
+	
+}
+.modifyform .modify-box #mopostcode {
+	margin-left: 100px;
+}
+.modifyform .modify-box .post-btn {
+	margin-right: 3px;
+	background-color: #000000;
+	border: none;
+	border-radius: 5px;
+	color:#FFFFFF;
+	font-size: 11px;
+	padding: 10px 15px;
+	margin-bottom: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.container .modifyform .modify-box .modify-btn{
+
+	margin-right: 3px;
+	margin-top:20px;
+	background-color: #000000;
+	border: none;
+	border-radius: 5px;
+	color:#FFFFFF;
+	font-size: 11px;
+	padding: 15px 60px;
+	margin-bottom: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.container .modifyform .modify-btn:hover{
+
+  font-weight: bold;
+  transform: scale(0.9);
+
+}

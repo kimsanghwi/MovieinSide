@@ -1,0 +1,89 @@
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#header{
+  width : 100%;
+  height: 100px;
+  /* background-color: #999; */
+}
+#contents{
+  width : 100%;
+  overflow: hidden;
+}
+
+#footer{
+  width : 100%;
+  height: 250px;
+  background-color: #1C1C1C;
+  color: #ffffff;
+}
+#left-col{
+width: 200px;
+height: 800px;
+float: left;
+
+}
+#right-col{
+width: 200px;
+height: 800px;
+float: right;
+
+}
+.re-container{
+  width: auto;
+  height: 1500px;
+  overflow: hidden;
+}
+
+.recommend-list ul li{
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.recommend-list ul li img{
+	width:150px;
+	height:200px;
+}
+.recommend-list {
+  margin-top: 70px;
+
+}
+.recommend-list a {
+  text-decoration: none;
+}
+
+.recommend-list p {
+  text-align: center;
+  margin-top: 0px;
+}
+.datetimeT {
+  font-size: 11px;
+}
+.tw-t {
+  width: 150px;
+  height: 200px;
+}
+.tw-l {
+  position: relative;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 19px;
+
+}
+.lee-co{
+  width: 1101px;
+  border-bottom: 2px solid black;
+  margin-top:50px;
+  
+}
+.lee-co h4{
+  margin-left: 20px;
+  margin-bottom:20px;
+}
+.lee-co i {
+  float: right;
+  font-size: 20px;
+}

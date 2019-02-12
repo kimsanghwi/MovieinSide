@@ -1,0 +1,208 @@
+/* Layout */
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#contents{
+  width : 100%;
+  height: 100%;
+}
+
+/* Container */
+.container{
+  width : 960px;
+  margin : 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+/* Container */
+
+
+/* Contents */
+.content-area {
+  height: 100%;
+}
+.movie {
+  width : 960px;
+  margin: 0 auto;
+}
+.img {
+  width : 100%;
+  height: 480px;
+}
+.swiper-slide {
+	margin-bottom: 40px;
+}
+.introduction {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 15px;
+}
+.movie-trailer {
+	margin-bottom: 20px;
+}
+.htag {  /* img위에 글씩 위치 */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+}
+.introduction-release {
+	margin-bottom: 10px;
+}
+.introduction-hit {
+	margin-bottom: 10px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	padding: 10px 0px;
+}
+.introduction-info {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+.modify-btn {
+	border: 2px solid #000;
+	width: 5%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    float: right;
+    margin-right: 4px;
+}
+.modify-btn a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+.modify-btn:hover {
+	transform: scale(1.1);
+}
+.modify-btn a:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	transition: all .7s ease;
+}
+.reply-box{
+  width: 100%;
+  color: #000;
+}
+.reply-box .reply-head {
+  margin-top: 100px;
+  font-family: 'Jua', sans-serif;
+  color: #000;
+}
+.reply-box .reply-rating{
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+.reply-box .reply-write{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.reply-box .reply-write .reply-text{
+  float: left;
+  width: 80%;
+}
+.reply-box .reply-write .reply-btn{
+  float: right;
+  width: 20%;
+  height: 71%;
+}
+.contents-btn:hover{
+  color: #FB0303;
+  transition: all .8s ease;
+}
+
+.reply-box input{
+  font-family: 'Do Hyeon', sans-serif;
+    font-size: 28px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    text-decoration: none;
+}
+.reply-box .reply-text textarea{
+  width: 100%;
+  height: 20%;
+  padding-top: 10px;
+  border: none;
+}
+
+.reply-view {
+     color: #000;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 30px;
+}
+/* input line 없애주는거 */
+*:focus {
+    outline: none;
+}
+.reply-content1 {
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.reply-view-writer {
+	padding-bottom: 5px;
+    font-weight: bold;
+    color: #8e8a8a;
+    float: left;
+    margin-right: 60px;
+        font-size: 14px;
+}
+.reply-view-date {
+	padding-bottom: 5px;
+	font-weight: bold;
+    color: #8e8a8a;
+    font-size: 14px;
+}
+.repy_button {
+	float: right;
+	margin: 20px 0px;
+}
+.reply-view-star {
+ margin: 20px 0px;
+}
+.reply-view-content input {
+	border: 2px solid #000;
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 5px;
+	font-weight: bold;
+}
+.reply-view-content input:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	 transition: all .7s ease;
+}
+.reply-view-content a {
+	text-decoration: none;
+	color: #000;
+}
+.reply-view-content a:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	 transition: all .7s ease;
+}
+.reply-a {
+	border: 2px solid #000;
+	border-radius: 15px;
+	padding: 5px;
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+}
+.reply-view-content .reply-a:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	 transition: all .7s ease;
+}
+/* Contents */

@@ -1,0 +1,165 @@
+#wrap{
+  width : 100%;
+  height: 100%;
+}
+#header{
+  width : 100%;
+  height: 100px;
+  /* background-color: #999; */
+}
+#contents{
+  width : 100%;
+  overflow: hidden;
+}
+
+#footer{
+  width : 100%;
+  height: 250px;
+  background-color: #1C1C1C;
+  color: #ffffff;
+}
+#left-col{
+width: 200px;
+height: 800px;
+float: left;
+}
+#right-col{
+width: 200px;
+height: 800px;
+float: right;
+
+}
+
+.lee-co{
+  width: 1101px;
+  border-bottom: 2px solid black;
+  margin-top:50px;
+  
+}
+.lee-co h4{
+  margin-left: 20px;
+  margin-bottom:20px;
+}
+.re-view-container{
+
+    width: auto;
+    height: 2000px;
+    overflow: hidden;
+}
+.view-img {
+  width: 800px;
+  height: 600px;
+  margin: 50px;
+}
+.view-content{
+  width: 900px;
+  height: 1000px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.re-view-title p {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.view-video{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 878px;
+  height: 494px;
+}
+/*  --------------------------------    */
+.introduction-release {
+	margin-bottom: 10px;
+}
+.introduction-hit {
+	margin-bottom: 10px;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	padding: 10px 0px;
+}
+.introduction-info {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+.modify-btn {
+	border: 2px solid #000;
+	width: 5%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    float: right;
+    margin-right: 4px;
+}
+.modify-btn a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+.modify-btn:hover {
+	transform: scale(1.1);
+}
+.modify-btn a:hover {
+	color: #FB0303;
+	transform: scale(1.1);
+ 	transition: all .7s ease;
+}
+.reply-box{
+  width: 100%;
+  height: 200px;
+  color: #000;
+}
+.reply-box .reply-head {
+  margin-top: 100px;
+  font-family: 'Jua', sans-serif;
+  color: #000;
+}
+.reply-box .reply-rating{
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+.reply-box .reply-write{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.reply-box .reply-write .reply-text{
+  float: left;
+  width: 80%;
+}
+.reply-box .reply-write .reply-btn{
+  float: right;
+  width: 20%;
+  height: 71%;
+}
+.contents-btn:hover{
+  color: #FB0303;
+  transition: all .8s ease;
+}
+
+.reply-box input{
+
+  font-family: 'Do Hyeon', sans-serif;
+  height: 77%;
+    font-size: 28px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    text-decoration: none;
+}
+.reply-box .reply-text textarea{
+  width: 100%;
+  height: 20%;
+  padding-top: 10px;
+  border: none;
+}
+
+.reply-view {
+  color: #000;
+}
+/* input line 없애주는거 */
+*:focus {
+    outline: none;
+}

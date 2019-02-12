@@ -1,0 +1,583 @@
+@charset "UTF-8";
+
+/*전체*/
+#wrap {
+width: 100%;
+height: 100%;
+}
+
+#notice{
+  background-color: #F77EC0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #FFF9F9;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.container-box{
+  width : 100%;
+  height: 100%;
+  margin : 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+
+/*헤더*/
+#header{
+  width: 100%;
+  height: 100px;
+
+}
+
+#menuarea{
+  width: 100%;
+  height: 60px;
+
+}
+
+.topmenu {
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.container .topmenu .menu > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 6%;
+
+}
+
+.container .topmenu .login > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 8%;
+}
+.container .topmenu .sign-up > a{
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 8%;
+}
+.menu {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+}
+.login {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 11px;
+  font-family: 'Varela Round', sans-serif;
+}
+.sign-up {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 11px;
+  font-family: 'Varela Round', sans-serif;
+}
+.container .topmenu .menu > a:hover {
+  color: #FB0303;
+  transition: all .4s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container .topmenu .login > a:hover {
+  color: #FB0303;
+  transition: all .4s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.container .topmenu .sign-up > a:hover {
+  color: #FB0303;
+  transition: all .4s ease;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+
+
+/*컨텐츠*/
+#content{
+  width: 100%;
+  height: auto;
+}
+
+#introduce{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#title{
+margin-top: 0;
+font-size: 40px;
+font-weight: 400;
+color: #1a1a1a;
+text-align: left;
+}
+
+.intro{
+padding-bottom: 16px;
+margin-top: -3px;
+font-size: 32px;
+line-height: 46px;
+color: #cacaca;
+}
+
+#mainimgspace{
+  width: 960px;
+  height: 520px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+#img1{
+  width: 419px;
+  height: 519px;
+  float: left;
+  margin: 1px;
+  position: relative;
+
+}
+#img1 >h2 {
+margin: 0 auto;
+}
+
+#img2{
+  width: 339px;
+  height: 519px;
+  float: left;
+  margin: 1px;
+  position: relative;
+
+}
+
+.img2 >h2 {
+margin: 0 auto;
+}
+
+#img3{
+  width: 179px;
+  height: 519px;
+  float: left;
+  margin: 2px;
+  position: relative;
+
+}
+#img3 >h2 {
+margin: 0 auto;
+}
+
+.img2{
+  width: 339px;
+  height: 259px;
+  position: relative;
+  margin: 1px;
+  text-align: center;
+
+}
+.img-desc1{
+  position: absolute;
+  top : 10px;
+  color: #FFFFFF;
+}
+.img-desc2{
+  position: absolute;
+  top : 270px;
+  color: #FFFFFF;
+}
+.img-desc3{
+  position: absolute;
+  top : 10px;
+  color: #FFFFFF;
+}
+.img-desc4{
+  position: absolute;
+  top : 10px;
+  color: #FFFFFF;
+}
+
+.imgs{
+  width: 100%;
+  height: 100%;
+  margin-bottom: -4px;
+}
+.magazines {
+  width: 960px;
+  height: 520px;
+  margin: 0 auto;
+}
+.main-img {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.main-imgbox {
+  float: left;
+  width: 34%;
+  height: 100%;
+}
+
+.main-title {
+  height: 50%;
+}
+
+#moveweekly{
+
+width: 960px;
+overflow: hidden;
+margin: 0 auto;
+height: auto;
+
+}
+
+#moveweeklyimgarea{
+  width: 960px;
+  overflow: hidden;
+  border-bottom: 1px;
+  margin-bottom: 100px;
+}
+
+.moveimg{
+  width: 158px;
+  height: 230px;
+  float: left;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.imgmove{
+  width: 100%;
+  height: 100%;
+}
+
+#wtitle{
+  margin-top: 150px;
+  width: 960px;
+
+}
+
+.ti3{
+text-align: center;
+}
+
+#ti4{
+  text-align: center;
+}
+
+#content_review_area{
+  width: 100%;
+  background-color:#FAFAFA;
+  height: 1800px;
+  padding-top: 50px;
+}
+#reviewtitle{
+  width: 960px;
+  height: 160px;
+  background-color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 28px;
+  border-radius: 35px;
+}
+
+.reviewbook{
+  width: 960px;
+  height: 320px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.main-img .cover{
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  width: 33%;
+  top: 0px;
+  left: 0px;
+}
+.main-img:hover .cover{
+  opacity: 1;
+}
+.main-imgbox .cover1{
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  width: 34%;
+  height: 50%;
+}
+.main-imgbox:hover .cover1{
+  opacity: 1;
+}
+.main-imgbox .cover2{
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  width: 34%;
+  height: 50%;
+}
+.main-imgbox:hover .cover2{
+  opacity: 1;
+}
+.main-img .cover3{
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  width: 33%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+}
+.main-img:hover .cover3{
+  opacity: 1;
+}
+
+#img3 .cover{
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+#img3:hover .cover{
+  opacity: 1;
+}
+
+.img2 .cover{
+  position: absolute;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.img2:hover .cover{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*푸터*/
+/* #footer{
+  width: 100%;
+  height: 200px;
+  background-color: #999;
+  padding-bottom: 30%;
+}
+ */
+
+.container{
+  width:960px;
+  margin: 0 auto;
+}
+
+
+
+/* 로그인 */
+.login1{
+
+text-align: center;
+font-family:sans-serif;
+
+}
+.join-box2 {
+  margin-top: 10px;
+}
+.join-signup {
+  margin-bottom: 20px;
+  font-family: 'Jua', sans-serif;
+}
+.login-box {
+  margin-top: 17%;
+  padding-top: 50px;
+}
+.login-h {
+  margin-bottom: 35px;
+  font-family: 'Jua', sans-serif;
+}
+.login-container{
+
+  width: 350px;
+  height: 350px;
+  vertical-align: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+  }
+
+.login1 .login-container .login-idbox input{
+
+  border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1px;
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+
+}
+
+.login1 .login-container .login-button .btn1{
+
+background-color: #000000;
+border: none;
+color: #FFFFFF;
+padding:8px 8px;
+font-size: 10px;
+margin-top:15px;
+
+}
+/* 로그인 */
+/* 회원가입 */
+
+.join .join-container .join-box .join-box2 input{
+  border-color: #000000;
+  padding: 5px 5px;
+  margin-top: 3px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+.join{
+  text-align: center;
+  font-family:sans-serif;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 500px;
+  height: 520px;
+  margin-top: 3%;
+  border-radius: 30px;
+}
+.join-container {
+  margin-top: 5%;
+}
+.join .join-container .join-box .join-box2 textarea{
+  background-attachment: local;
+  line-height: 30px;
+  width: 220px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  resize: none;
+}
+.join .join-container .join-box .join-box2 .btn2{
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  padding:8px 8px;
+  font-size: 10px;
+  margin-top:2px;
+  margin-right: 8px;
+  text-align: center;
+}
+.join-box2 label {
+  position: relative;
+  width: 40px;
+  padding: 2px 10px;
+  border: 1px solid #999;
+  background: #fff;
+}
+.join-box2 input[type="radio"] {
+  padding: absolute;
+}
+.join-box2 input:checked+label {
+  position: relative;
+  color: #000;
+  background: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+#man {
+  margin-right: -20px;
+}
+#woman {
+  margin-right: -20px;
+}
+*:focus {
+    outline: none;
+}
+
+.review-picture{
+height: 100%
+}
+
+.divbooktitle{
+  float: right;
+  width: 76%;
+  font-size: 20px;
+}
+
+#withGod-line{
+  text-decoration: none;
+}
+
+#reviewbook01{
+  height: 100%;
+  border-radius: 30px;
+}
+
+#reviewbook02{
+  height: 100%;
+  border-radius: 30px;
+}
+
+#reviewbook03{
+  height: 100%;
+  border-radius: 30px;
+}
+
+#reviewbook04{
+  height: 100%;
+  border-radius: 30px;
+}
+
+.reviewbook-list{
+  width: 960px;
+  margin: auto;
+  text-align: right;
+  color: black;
+}
+
+#content_review_area .reviewbook-list a:hover{
+  color: #F7D358;
+  text-decoration: underline;
+  transition: all .6s ease;
+}
